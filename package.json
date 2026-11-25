@@ -1,0 +1,26 @@
+{
+  "name": "uztac-ratsiya",
+  "displayName": "UZ-TAC Ratsiya",
+  "version": "1.0.0",
+  "description": "UZ-TAC Ratsiya Pro Background",
+  "main": "index.html",
+  "scripts": {
+    "build": "cordova build android"
+  },
+  "dependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-plugin-android-permissions": "^1.1.5",
+    "cordova-plugin-background-mode": "https://github.com/katzer/cordova-plugin-background-mode.git",
+    "cordova-plugin-powermanagement": "^1.0.5"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-android-permissions": {},
+      "cordova-plugin-background-mode": {},
+      "cordova-plugin-powermanagement": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
